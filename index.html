@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Galileo Galilei - Portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/GalileoGalieliPainting1.jpg" alt="Retrato de Galileo Galilei" class="rounded-circle" width="150" height="150">
+        <h2 class="lead">Eu sou Galileo Galilei</h2>
+        <h1>Eu exploro o Universo</h1>
+        <p>Sou físico, matemático, astrônomo e filósofo. Fiz descobertas revolucionárias sobre o movimento dos corpos, telescópios e o Sistema Solar. Através da observação e do método científico, mudei a forma como a humanidade vê o cosmos.</p>
+        <p>Minhas contribuições</p>
+        <div>
+            <p class="badge bg-secondary">Telescópios</p>
+            <p class="badge bg-secondary">Astronomia</p>
+            <p class="badge bg-secondary">Física</p>
+            <p class="badge bg-secondary">Matemática</p>
+        </div>
+    </header>
+
+    <!-- Curiosidades -->
+    <section class="container my-5 curiosidades-box text-center">
+        <h2>Você Sabia?</h2>
+        <p id="curiosidade" class="lead mt-3">Carregando curiosidade...</p>
+    </section>
+    <main class="container mt-5">
+        <h2>Minhas invenções</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/telescopio_galileu.png" class="card-img-top" alt="Imagem do telescópio de Galileu">
+                    <div class="card-body">
+                        <h5 class="card-title">Telescópio de Galileo</h5>
+                        <p class="card-text">Este telescópio refrator de lentes simples, construído no início do século XVII com tubo de madeira revestido em couro e detalhes dourados, proporcionava ampliação de até 20×, permitindo observar crateras lunares, manchas solares e satélites planetários de forma inédita. 
+                        Com um campo de visão de 10 graus, o telescópio tinha uma lente objetiva de 50 mm e uma ocular de 25 mm, possibilitando a observação de astros como Júpiter e suas luas, além de Saturno e Vênus. O telescópio foi um marco na história da astronomia, revolucionando a forma como os astrônomos observavam o céu.</p>
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/termoscopio_Galileo1.jpg" width="200" height="500" class="card-img-top" alt="Imagem do termômetro de Galileu">
+                    <div class="card-body">
+                        <h5 class="card-title">Termoscópio de Galileo</h5>
+                        <p class="card-text">O termoscópio de Galileo, inventado em 1597, era um dispositivo que registrava variações de temperatura pela dilatação do ar e subida de água num tubo sem escala graduada. Ele demonstrava a relação entre temperatura e densidade de fluidos, sendo um precursor dos termômetros modernos. O termoscópio consistia em um tubo de vidro com água e ar, onde a variação da temperatura fazia o ar se expandir ou contrair, movendo a água para cima ou para baixo no tubo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/compasso_Galileo.jpg" class="card-img-top" alt="Imagem do compasso de Galileu">
+                    <div class="card-body">
+                        <h5 class="card-title">Compasso de Galileo</h5>
+                        <p class="card-text">O compasso geométrico e militar de Galileo, produzido entre 1597 e 1598, era um instrumento de cálculo que permitia realizar operações matemáticas complexas, como proporções, distâncias e balística. O compasso era acompanhado de um manual publicado em 1606, intitulado "Le operazioni del compasso geometrico et militare", que detalhava suas aplicações práticas. Este dispositivo foi um marco na história da matemática e da engenharia, influenciando o desenvolvimento de instrumentos de medição e cálculo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 4 -->
+
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                    <img src="img/heliocentric-system.jpg" class="card-img-top" alt="Modelo Heliocêntrico">
+                    <div class="card-body">
+                        <h5 class="card-title">Modelo Heliocêntrico</h5>
+                        <p class="card-text">O modelo heliocêntrico, proposto por Copérnico e defendido por Galileu, revolucionou a astronomia ao afirmar que a Terra e os planetas giram em torno do Sol. Essa teoria desafiou o modelo geocêntrico, que colocava a Terra no centro do universo, e foi fundamental para o desenvolvimento da ciência moderna.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal4">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 5 -->
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                    <img src="img/galileo-moon-3.jpg" class="card-img-top" alt="Desenhos Lunares de Galileu">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenhos Lunares de Galileu</h5>
+                        <p class="card-text">Os desenhos lunares de Galileu, realizados entre 1609 e 1610, foram as primeiras representações detalhadas da superfície lunar observadas através de um telescópio. Eles revelaram crateras, montanhas e vales, desafiando a visão aristotélica de uma Lua perfeita e imutável. Esses desenhos foram fundamentais para a astronomia, pois mostraram que a Lua era um corpo celeste complexo e não uma esfera perfeita.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal5">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 6 -->
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                    <img src="img/Moons_galileo.gif" class="card-img-top" alt="Imagem das luas galileanas">
+                    <div class="card-body">
+                        <h5 class="card-title">Luas Galileanas</h5>
+                        <p class="card-text">As luas galileanas são quatro grandes satélites naturais de Júpiter: Ío, Europa, Ganimedes e Calisto. Descobertas por Galileu Galilei em 1610, essas luas foram as primeiras a serem observadas em órbita de um planeta diferente da Terra, desafiando a visão geocêntrica do universo. Cada uma delas possui características únicas, como atividade vulcânica em Ío e oceanos subterrâneos em Europa, tornando-as alvos de interesse para futuras pesquisas astrobiológicas.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal6">Saiba mais</button>
+        </div>
+    </main>
+
+    <!-- Fontes históricas -->
+    <section class="container my-5">
+        <h2>Fontes Históricas</h2>
+        <ul>
+            <li><a href="https://library.si.edu/digital-library/book/sidereusnuncius00gali" target="_blank"><em>Sidereus Nuncius</em> (Mensagem das Estrelas) – Smithsonian Libraries</a></li>
+            <li><a href="https://archive.org/details/sidereus-nuncius-aka-starry-messenger" target="_blank"><em>Sidereus Nuncius</em> – Tradução em inglês (Archive.org)</a></li>
+            <li><a href="https://hdl.loc.gov/loc.wdl/wdl.4187" target="_blank"><em>Diálogo sobre os Dois Sistemas do Mundo</em> – Manuscrito digitalizado (Biblioteca do Congresso)</a></li>
+            <li><a href="https://archive.org/details/GalileiGalileoDialogueConcerningTheTwoChiefWorldSystemsEN155P." target="_blank"><em>Dialogue Concerning the Two Chief World Systems</em> – Tradução em inglês (Archive.org)</a></li>
+        </ul>
+    </section>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Telescópio de Galileo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>No verão de 1609, inspirado pelos primeiros telescópios holandeses, decidiu construir um tubo de madeira em estilo strake — tiras de madeira coladas e depois cobertas por couro vermelho com detalhes dourados — para abrigar um par de lentes: uma objetiva convergente e uma ocular divergente, atingindo inicialmente 3 vezes de ampliação antes de chegar a cerca de 20 vezes ao estender o tubo para quase um metro de comprimento.</p>
+                    <p>As lentes foram lapidadas a partir de vidro de esferas de artilharia, usando pó de Tripoli e pitch grego para o desbaste e, em seguida, polidas com feltro até alcançar superfícies suficientemente precisas para formar imagens claras e livres de imperfeições graves.</p>
+                    <p>Com esse instrumento, realizou as primeiras observações sistemáticas da Lua em 30 de novembro de 1609, descrevendo “depressões e saliências” em sua superfície e criando mapas topográficos rudimentares. Pouco depois, identificou quatro satélites orbitando Júpiter — hoje conhecidos como luas galileanas — e observou manchas solares em movimento, fornecendo evidências decisivas que apoiaram o modelo heliocêntrico.</p>
+                    <p>O instrumento foi apresentado ao Senado de Veneza como prova de seu valor militar e comercial, garantindo suporte financeiro para continuar aprimorando lentes e montagem. Nos meses seguintes, aperfeiçoou ainda mais o polimento e a vedação contra luz lateral, criando variantes de bolso e de observatório que consagraram o telescópio como símbolo de uma nova era de descobertas científicas — legado que perdura até hoje, celebrando-se a cada avanço na astronomia moderna.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Termoscópio de Galileo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O termoscópio de Galileo, inventado em 1597, era um dispositivo que registrava variações de temperatura pela dilatação do ar e subida de água num tubo sem escala graduada. Ele demonstrava a relação entre temperatura e densidade de fluidos, sendo um precursor dos termômetros modernos. O termoscópio consistia em um tubo de vidro com água e ar, onde a variação da temperatura fazia o ar se expandir ou contrair, movendo a água para cima ou para baixo no tubo.</p>
+                    <p>Embora não possuísse uma escala graduada, o termoscópio permitia observar mudanças na temperatura de forma qualitativa. Com o tempo, o dispositivo evoluiu para incluir escalas graduadas e se tornou a base para os termômetros modernos.</p>
+                    <p>O termoscópio de Galileo foi um marco importante na história da ciência, pois ajudou a estabelecer a relação entre temperatura e pressão atmosférica, contribuindo para o desenvolvimento da física e da meteorologia.</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Compasso de Galileo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O compasso geométrico e militar de Galileo, produzido entre 1597 e 1598, era um instrumento de cálculo que permitia realizar operações matemáticas complexas, como proporções, distâncias e balística. O compasso era acompanhado de um manual publicado em 1606, intitulado "Le operazioni del compasso geometrico et militare", que detalhava suas aplicações práticas. Este dispositivo foi um marco na história da matemática e da engenharia, influenciando o desenvolvimento de instrumentos de medição e cálculo.</p>
+                    <p>O compasso de Galileo era composto por duas hastes articuladas com escalas graduadas, permitindo realizar cálculos de forma rápida e precisa. Ele era amplamente utilizado por engenheiros, arquitetos e matemáticos da época, sendo considerado uma das invenções mais importantes do Renascimento.</p>
+                    <p>Além de suas aplicações práticas, o compasso de Galileo também teve um impacto significativo na educação matemática, pois facilitou o ensino de conceitos geométricos e trigonométricos. Sua popularidade perdurou por séculos, e ele continua a ser um símbolo da engenhosidade e inovação do período renascentista.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal" id="modal4" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modelo Heliocêntrico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O modelo heliocêntrico, proposto por Copérnico e defendido por Galileu, revolucionou a astronomia ao afirmar que a Terra e os planetas giram em torno do Sol. Essa teoria desafiou o modelo geocêntrico, que colocava a Terra no centro do universo, e foi fundamental para o desenvolvimento da ciência moderna.</p>
+                    <p>Galileu utilizou seu telescópio para observar os planetas e suas luas, coletando evidências que apoiavam o modelo heliocêntrico. Suas descobertas, como as luas de Júpiter e as fases de Vênus, foram cruciais para validar essa nova visão do cosmos.</p>
+                    <p>O modelo heliocêntrico não apenas transformou a astronomia, mas também teve um impacto profundo na filosofia e na religião da época, levando a uma reavaliação da posição da humanidade no universo.</p>
+                    <p>Hoje, o modelo heliocêntrico é amplamente aceito e é a base da astronomia moderna, permitindo uma compreensão mais precisa do sistema solar e do universo como um todo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal" id="modal5" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Desenhos Lunares de Galileu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Os desenhos lunares de Galileu, realizados entre 1609 e 1610, foram as primeiras representações detalhadas da superfície lunar observadas através de um telescópio. Eles revelaram crateras, montanhas e vales, desafiando a visão aristotélica de uma Lua perfeita e imutável. Esses desenhos foram fundamentais para a astronomia, pois mostraram que a Lua era um corpo celeste complexo e não uma esfera perfeita.</p>
+                    <p>Galileu utilizou seu telescópio para observar a Lua e fez anotações cuidadosas sobre suas características. Seus desenhos foram publicados em seu livro "Sidereus Nuncius" (Mensagem das Estrelas), que se tornou um marco na história da astronomia.</p>
+                    <p>Esses desenhos não apenas contribuíram para o entendimento da Lua, mas também abriram caminho para futuras observações astronômicas e ajudaram a estabelecer o método científico como uma abordagem válida para o estudo do cosmos.</p>
+                    <p>Os desenhos lunares de Galileu são considerados uma das primeiras representações científicas da Lua e continuam a ser estudados e admirados por astrônomos e historiadores da ciência até hoje.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal" id="modal6" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Luas Galileanas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>As luas galileanas são quatro grandes satélites naturais de Júpiter: Ío, Europa, Ganimedes e Calisto. Descobertas por Galileu Galilei em 1610, essas luas foram as primeiras a serem observadas em órbita de um planeta diferente da Terra, desafiando a visão geocêntrica do universo. Cada uma delas possui características únicas, como atividade vulcânica em Ío e oceanos subterrâneos em Europa, tornando-as alvos de interesse para futuras pesquisas astrobiológicas.</p>
+                    <p>Galileu utilizou seu telescópio para observar essas luas e fez anotações detalhadas sobre suas órbitas e movimentos. Suas descobertas foram publicadas em seu livro "Sidereus Nuncius" (Mensagem das Estrelas), que se tornou um marco na história da astronomia.</p>
+                    <p>As luas galileanas são consideradas um dos principais exemplos de como a observação astronômica pode desafiar crenças estabelecidas e abrir novas fronteiras no entendimento do cosmos. Elas continuam a ser estudadas por cientistas modernos, que buscam entender melhor suas características e potencial para abrigar vida.</p>
+                    <p>Hoje, as luas galileanas são alvos de missões espaciais e pesquisas científicas, contribuindo para o avanço do conhecimento sobre o sistema solar e a possibilidade de vida em outros mundos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Galileu_Galilei">Biografia completa</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido em homenagem a Galileo Galilei</p>
+    </footer>
+
+    <script>
+        const curiosidades = [
+            "Galileo foi o primeiro a usar um telescópio para observar o céu de forma científica.",
+            "Ele descobriu as quatro maiores luas de Júpiter, hoje chamadas de luas galileanas.",
+            "Foi condenado pela Inquisição por apoiar o heliocentrismo.",
+            "Desenvolveu um método para medir o tempo com pêndulos.",
+            "Comprovou experimentalmente que objetos caem com a mesma aceleração, independente da massa, na Terra. Essa aceleração é a gravidade.",
+            "Entre 1612 e 1613, ele documentou mais de 18 meses de manchas solares mutáveis e demonstrou a rotação do Sol em suas Cartas sobre Manchas Solares, contestando céus imutáveis.",
+            "Inventado em 1597, o termoscópio de Galileo registrava variações de temperatura pela dilatação do ar e subida de água num tubo sem escala graduada, demonstrando a relação entre temperatura e densidade de fluidos.",
+            "Produzido em meados de 1597 e 1598, seu compasso geométrico e militar permitia cálculos de proporções, distâncias e balística, acompanhado de manual publicado em 1606, Le operazioni del compasso geometrico et militare.",
+            "Ótimo músico, Galileo era exímio tocador de alaúde e teclado, seguindo o legado de seu pai Vincenzo Galilei e participando de círculos musicais em Pisa e Pádua.",
+            "Em Pádua, manteve relação com Marina Gamba, tendo três filhos (Virginia, Livia e Vincenzo), não reconhecidos oficialmente, com as filhas ingressando em conventos como Maria Celeste e Arcangela e o filho Vincenzo se tornando sacerdote.",
+        ];
+
+        function trocarCuriosidade() {
+            const curiosidade = curiosidades[Math.floor(Math.random() * curiosidades.length)];
+            document.getElementById("curiosidade").textContent = curiosidade;
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            trocarCuriosidade();
+            setInterval(trocarCuriosidade, 15000); // troca a cada 15 segundos
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
